@@ -1,0 +1,20 @@
+.error_text1 {
+  color: brown;
+}
+
+.textbox1 {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  width: 330px;
+  padding: 8px;
+  border-bottom: 2px solid #aaa;
+  margin: 6px 0px;
+  font-size: 15px;
+}
+
+.textbox1:focus {
+  outline: none !important;
+  border-color: #719ece;
+  background-color: transparent;
+}

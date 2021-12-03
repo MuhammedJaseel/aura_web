@@ -1,0 +1,56 @@
+.hm_sidebar_a {
+  margin: 1px;
+  height: 42px;
+  border-end-end-radius: 18px;
+  border-start-end-radius: 18px;
+  width: 100%;
+  background-color: #04213c;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hm_sidebar_a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.hm_sidebar_a:hover .hm_sidebar_b {
+  transition: 0.35s ease-in-out;
+  font-size: 22px;
+}
+
+.hm_sidebar_a:not(:hover) .hm_sidebar_b {
+  transition: 0.35s ease-in-out;
+  font-size: 16px;
+}
+
+.hm_sidebar_b {
+  float: left;
+  padding-top: 3px;
+  width: 20px;
+  font-size: 16px;
+}
+
+.hm_sidebar_c {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.hm_sidebar_a:hover .hm_sidebar_c {
+  transition: 0.35s ease-in-out;
+  margin-left: 10px;
+}
+
+.hm_sidebar_a:not(:hover) .hm_sidebar_c {
+  transition: 0.35s ease-in-out;
+  margin-left: 0px;
+}
+
+.hm_sidebar_d {
+  width: 40px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

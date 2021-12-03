@@ -1,0 +1,26 @@
+const api = {
+  baseapi: "https://www.restapi.kalyaniaura.com/api/",
+  login: "https://www.restapi.kalyaniaura.com/api/teamlogin",
+  dashboard: "https://www.restapi.kalyaniaura.com/api/dashboard",
+  location: "https://www.restapi.kalyaniaura.com/api/locate",
+  inventories: "https://restapi.kalyaniaura.com/api/manageinventories",
+  plan: "https://www.restapi.kalyaniaura.com/api/manageplans",
+  members: "https://www.restapi.kalyaniaura.com/api/addmembers",
+  membersearch: "https://www.restapi.kalyaniaura.com/api/membersearch/",
+  companies: "https://www.restapi.kalyaniaura.com/api/companiesgenerals",
+  companiekyc: "https://www.restapi.kalyaniaura.com/api/companiesgeneral",
+  teammember: "https://www.restapi.kalyaniaura.com/api/supportteammember",
+  scope: "https://www.restapi.kalyaniaura.com/api/addscope",
+  role: "https://www.restapi.kalyaniaura.com/api/userrole",
+  profile: "https://www.restapi.kalyaniaura.com/api/supportcategory",
+  tickets: "https://www.restapi.kalyaniaura.com/api/supporttickets",
+  ticket_sent_msg: "https://www.restapi.kalyaniaura.com/api/ticketcomments",
+  ticket_assign: "https://www.restapi.kalyaniaura.com/api/assignticket",
+  ticket_filter: "https://www.restapi.kalyaniaura.com/api/ticketfilter",
+  announcement: "https://www.restapi.kalyaniaura.com/api/announcement",
+  stream: "https://www.restapi.kalyaniaura.com/api/stream",
+  stream_operation: "https://www.restapi.kalyaniaura.com/api/feed/",
+  stream_most_post: "https://www.restapi.kalyaniaura.com/api/whoposted",
+};
+
+export default api;

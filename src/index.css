@@ -1,0 +1,53 @@
+button {
+  background-color: transparent;
+  border: 0ch;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.row {
+  display: flex;
+}
+
+:root {
+  --auraBlue: #04213c;
+}
+
+.c_skyBlue {
+  color: skyBlue;
+}
+
+.c_deletered {
+  color: rgb(211, 0, 0);
+}
+
+.c_black {
+  color: rgb(0, 0, 0);
+}
+
+.c_editGreen {
+  color: green
+}
+
+label {
+  color: rgb(87, 87, 87);
+  font-size: 14px;
+}

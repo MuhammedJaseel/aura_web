@@ -1,0 +1,59 @@
+.lin_bg_a {
+  background: url(../Assets/image/login_background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.lin_fm_a {
+  width: 440px;
+  height: 500px;
+  background-color: var(--auraBlue);
+  box-shadow: 0px 0px 20px #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.lin_fm_aa {
+  color: #bbb;
+  width: 350px;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+
+.lin_fm_ab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lin_fm_ae {
+  border-width: 0px;
+  border-radius: 3px;
+  font-weight: bold;
+  height: 35px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.lin_fm_af {
+  color: #aaa;
+  margin-top: 30px;
+}
+
+.lin_fm_ag {
+  color: #aaa;
+  margin-top: 10px;
+}

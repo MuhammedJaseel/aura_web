@@ -1,0 +1,54 @@
+.hm_1body {
+  position: fixed;
+  overflow: auto;
+  top: 60px;
+  left: 260px;
+  right: 0px;
+  bottom: 0px;
+  height: 100% - 60px;
+  padding: 0%;
+  background-color: #edeff2;
+}
+
+.hm_1sidebar {
+  position: fixed;
+  background-color: #04213c;
+  top: 0px;
+  width: 260px;
+  height: 100%;
+  left: 0px;
+  bottom: 0px;
+  overflow: "auto";
+}
+
+@media screen and (max-width: 600px) {
+  .hm_1body {
+    left: 0px;
+  }
+  .hm_1sidebar {
+    width: 0;
+    visibility: hidden;
+  }
+}
+
+.hm_1logged_user_profile_pic {
+  border-radius: 50%;
+  height: 50px;
+  border: 2px solid #5f95f7;
+}
+
+.hm_1sidebar_subtopic {
+  color: gray;
+  padding-left: 15px;
+  font-size: 12px;
+  font-weight: 600px;
+}
+
+.hm_1sidebar_aboutapp {
+  color: gray;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600px;
+}
+
+

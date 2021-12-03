@@ -1,0 +1,14 @@
+.cm_text_a {
+  font-weight: bold;
+  box-shadow: 5px;
+  padding-left: 10px;
+}
+
+.cm_text_a:hover {
+  color: #437aff;
+}
+
+.cm_text_b {
+  color: #717e86;
+  font-size: 12px;
+}

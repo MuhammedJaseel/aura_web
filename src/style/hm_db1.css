@@ -1,0 +1,76 @@
+.dashbord_body {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dashbord_small_card {
+  width: 270px;
+  border: 1px solid rgb(224, 224, 224);
+  background-color: white;
+  padding: 10px 5px;
+  margin: 6px;
+  border-radius: 4px;
+}
+
+.dashbord_small_card_title {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(22, 21, 21, 0.8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 22px;
+}
+
+.dashbord_small_card_icon {
+  font-size: 28px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dashbord_small_card_status {
+  color: #41a9ea;
+  font-weight: 500;
+}
+
+.dashbord_small_card_value {
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 10px;
+  color: #174058;
+}
+
+.dashbord_small_card_sub_title {
+  color: rgb(165, 165, 165);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.dashbord_large_card {
+  box-shadow: 0px 1px 6px rgb(231, 231, 231);
+  background-color: white;
+  max-width: 600px;
+  padding: 20px;
+  width: 500px;
+  padding-left: 25px;
+  margin: 14px;
+  border-radius: 8px;
+}
+
+.hm_db1_a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hm_db1_b {
+  display: flex;
+  align-items: center;
+}
+
+.hm_db1_c {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

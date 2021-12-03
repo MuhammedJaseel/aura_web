@@ -1,0 +1,82 @@
+.hm_sp1_a {
+  height: 120px;
+  width: calc((100% - 60px) / 3);
+  box-shadow: 0px 0px 3px #e4e4e4;
+  border: 1px solid rgb(236, 236, 236);
+  margin: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 16px;
+  background-color: white;
+}
+
+.hm_sp1_a:hover {
+  background-color: #eef3ff;
+}
+
+@media screen and (max-width: 1000px) {
+  .hm_sp1_a {
+    width: calc((100% - 40px) / 2);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hm_sp1_a {
+    width: calc((100% - 20px));
+  }
+}
+
+.hm_sp1_b {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding: 0px 15px;
+}
+
+.hm_sp1_c {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.hm_sp1_d {
+  padding: 12px;
+  background-color: #04213c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hm_sp1_e {
+  font-size: 20px;
+  color: #ac00a4;
+  width: 14px;
+}
+
+.hm_sp1_f {
+  font-size: 12px;
+  width: 16px;
+  color: #00b8c4;
+}
+
+.hm_sp1_g {
+  font-size: 12px;
+  width: 16px;
+  color: #df1622;
+}
+
+.hm_sp1_h {
+  font-size: 12px;
+  width: 16px;
+  color: #ffba00;
+}
+
+.hm_sp1_i {
+  padding: 10px 25px;
+  background: white;
+}
+
+.hm_sp1_j {
+  font-weight: 500;
+  padding-top: 10px;
+}

@@ -1,0 +1,109 @@
+/* //////////////////////manage team ////////////////////////// */
+.memberdisicon {
+  font-size: 13px;
+  width: 24px;
+  text-align: center;
+  color: gray;
+}
+
+.profile_inside {
+  padding: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 5px;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 10px;
+}
+
+.profile_sub_title {
+  font-weight: 500;
+  margin-top: 4px;
+  height: 20px;
+  font-size: 14px;
+}
+
+.profile_sub_data {
+  margin-left: 24px;
+  color: gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+errormsg {
+  color: red;
+  padding: 20px;
+  height: 10px;
+}
+
+loading {
+  color: gray;
+  padding: 20px;
+  height: 10px;
+}
+
+.rode_add_button {
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+  color: aliceblue;
+  border-radius: 5px;
+  background-color: orangered;
+  margin-left: 10px;
+  box-shadow: 1px 1px 5px gray;
+  padding: 3px;
+}
+
+.rode_add_text {
+  float: right;
+  width: 40%;
+  height: 15px;
+}
+
+.hm_mt1_a {
+  padding: 12px;
+  width: 100%;
+  background-color: #04213c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hm_mt1_b {
+  padding: 12px;
+  width: 100%;
+  background-color: #04213c;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hm_mt1_c {
+  background-color: #41c487;
+  color: white;
+  height: 32px;
+  width: 90px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.hm_mt1_d {
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+}
+
+.hm_mt1_e {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.hm_mt1_f {
+  display: flex;
+  align-items: center;
+}
