@@ -16,6 +16,7 @@ import "./style/hm_cy1.css";
 import "./style/hm_su1.css";
 import "./style/hm_st1.css";
 import "./style/hm_mt1.css";
+import "./style/hm_vs1.css";
 import "./style/hm_sidebar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";

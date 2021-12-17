@@ -1,0 +1,22 @@
+.hm_vs1_a {
+  padding: 10px;
+  min-width: 600px;
+}
+
+.hm_vs1_b {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+}
+
+.hm_vs1_c {
+  font-weight: 400;
+  color: rgb(161, 161, 161);
+  font-size: 14px;
+}
+
+.hm_vs1_d {
+    
+}

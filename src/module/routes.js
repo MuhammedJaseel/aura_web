@@ -6,6 +6,7 @@ import Stream from "../screen_component/streams";
 import HomeCommunity from "../screen_component/community";
 import HomeManageteam from "../screen_component/manageteam";
 import HomeAnnouncements from "../screen_component/announcement";
+import Visitors from "../screen_component/visitors";
 
 const dashboardRoutes = [
   {
@@ -66,7 +67,7 @@ const dashboardRoutes = [
     path: "/admin/visitors",
     name: "Visitors",
     icon: "fas fa-user-shield",
-    component: Alliances,
+    component: Visitors,
   },
   {
     path: "/admin/enquires",

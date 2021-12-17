@@ -5,12 +5,8 @@ import { Editheaderbutton } from "../component/home_button";
 import { PopupMd, PopupSm } from "../component/popups";
 
 import EditImageIcon from "../Assets/icon/edit_image2.png";
-import {
-  api_int_delete,
-  api_int_get,
-  api_int_post,
-  api_int_put,
-} from "../module/api_init";
+import { api_int_delete, api_int_get } from "../module/api_init";
+import { api_int_post, api_int_put } from "../module/api_init";
 import MyAlert from "../component/my_alert";
 import HomeDatasetter from "../component/home_poser.js";
 import HomeHeader from "../component/home_header";
@@ -385,7 +381,8 @@ class EditImage extends React.Component {
 
                   if (photo != null) {
                     formData.append("image", photo, photo.name);
-                    const result = await api_int_put(
+                    formData.append("_method", "PUT");
+                    const result = await api_int_post(
                       api.announcement + "/" + item.id,
                       formData
                     );
@@ -493,7 +490,6 @@ class Edit extends React.Component {
                     this.props.close();
                     this.props.reload();
                   }
-
                   this.setState({ loading: false });
                 }}
               >

@@ -117,6 +117,29 @@ export async function api_int_login(api) {
     });
 }
 
+export async function api_get(api, setdata, seterror) {
+  const key = await window.sessionStorage.auth_key;
+  return axios({
+    method: "get",
+    url: api,
+    headers: {
+      Accept: "application/json",
+      Authorization: "Bearer " + key,
+    },
+  })
+    .then((res) => {
+      if (res.data.status === 200) setdata(res.data.data);
+      if (res.data.status === 401) window.location.replace("/login");
+      else return seterror(res.data.message);
+    })
+    .catch((err) => {
+      if (err.toJSON().message === "Network Error")
+        return seterror("Check Your Internet");
+      else if (err.response.status === 401) window.location.replace("/login");
+      else return seterror("Error Loading data");
+    });
+}
+
 export const setImgUrl = (img) => {
   if (img != null)
     return "https://www.mobileapp.kalyaniaura.com/storage/" + img.split("/")[1];

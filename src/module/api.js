@@ -21,6 +21,7 @@ const api = {
   stream: "https://www.restapi.kalyaniaura.com/api/stream",
   stream_operation: "https://www.restapi.kalyaniaura.com/api/feed/",
   stream_most_post: "https://www.restapi.kalyaniaura.com/api/whoposted",
+  visitor: "https://visitorapi.kalyaniaura.com/api/visitor_log",
 };
 
 export default api;

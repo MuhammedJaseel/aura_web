@@ -10,7 +10,7 @@ function HomeDatasetter({ loading, error, items, vacum, onreload }) {
         <Error />
       ) : items.length === 0 ? (
         <>
-          <div style={{ color: "GrayText", fontSize: 15, fontWeight: 500 }}>
+          <div style={{ color: "GrayText", fontSize: 14, fontWeight: 500 }}>
             <i className="fas fa-exclamation-triangle pr-3" />
             No data Available.
           </div>

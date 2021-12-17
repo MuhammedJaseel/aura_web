@@ -263,7 +263,7 @@ class View extends React.Component {
         body={
           <>
             <div className="hm_su1_e">
-              <div className="hm_cm1_atert_ttl">Tocken</div>
+              <div className="hm_cm1_atert_ttl">Ticket</div>
               <div className="row">
                 <Editheaderbutton
                   content={<i className="fas fa-user-check c_skyBlue" />}
@@ -497,7 +497,7 @@ class AssignPopup extends React.Component {
         body={
           <>
             <div className="hm_su1_e">
-              <div className="hm_cm1_atert_ttl">Assign This Tocken</div>
+              <div className="hm_cm1_atert_ttl">Assign This Tickets</div>
               <Editheaderbutton
                 content={<i className="fas fa-window-close c_skyBlue" />}
                 hint="Close"
